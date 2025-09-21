@@ -1,0 +1,26 @@
+html{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: font-family: 'Caveat', cursive;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+img{
+    border: 5px solid white;
+}
+
+div{
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+}
