@@ -1,1 +1,23 @@
-*.DS_Store
+# macOS system files
+.DS_Store
+
+# Node modules
+node_modules/
+
+# npm logs
+npm-debug.log*
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# Build outputs
+dist/
+build/
