@@ -74,7 +74,7 @@ app.post("/login", async (req, res) => {
     );
 
     if (result.rows.length > 0) {
-      res.send("Login successful!");
+      res.render("secrets.ejs");
     } else {
       res.status(401).send("Invalid credentials");
     }
